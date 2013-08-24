@@ -265,8 +265,18 @@ namespace dead_space_config
 
         void button1_Click(object sender, EventArgs e)
         {
-            keyboard_clicked = null;
-            mouse_clicked = null;
+            if (keyboard_clicked != null)
+            {
+                keyboard_clicked.BackColor = SystemColors.Control;
+                keyboard_clicked.UseVisualStyleBackColor = true;
+                keyboard_clicked = null;
+            }
+            if (mouse_clicked != null)
+            {
+                mouse_clicked.BackColor = SystemColors.Control;
+                mouse_clicked.UseVisualStyleBackColor = true;
+                mouse_clicked = null;
+            }
 
             this.label1.ForeColor = SystemColors.ControlText;
             this.label1.BackColor = SystemColors.Control;
@@ -304,6 +314,8 @@ namespace dead_space_config
         void firsty_Click(object sender, EventArgs e)
         {
             keyboard_clicked = (Button)sender;
+            keyboard_clicked.UseVisualStyleBackColor = false;
+            keyboard_clicked.BackColor = SystemColors.Info;
 
             this.tabControl1.Enabled = false;
 
@@ -343,6 +355,8 @@ namespace dead_space_config
         void mousey_Click(object sender, EventArgs e)
         {
             mouse_clicked = (Button)sender;
+            mouse_clicked.UseVisualStyleBackColor = false;
+            mouse_clicked.BackColor = SystemColors.Info;
 
             this.tabControl1.Enabled = false;
 

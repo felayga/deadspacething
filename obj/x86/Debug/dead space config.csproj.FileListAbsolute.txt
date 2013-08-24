@@ -7,3 +7,12 @@ D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\dead space con
 D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\dead space config\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\dead space config\obj\x86\Debug\dead space config.exe
 D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\dead space config\obj\x86\Debug\dead space config.pdb
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\dead space config.exe
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\dead space config.pdb
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\bin\Debug\dead space config.exe
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\bin\Debug\dead space config.pdb
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\dead_space_config.Form1.resources
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\dead_space_config.Properties.Resources.resources
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\deadspacething\obj\x86\Debug\GenerateResource.write.1.tlog
