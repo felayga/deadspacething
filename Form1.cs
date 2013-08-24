@@ -432,7 +432,7 @@ namespace dead_space_config
                 using (FileStream _file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
                 {
                     file = new byte[0x2B1];
-                    if (_file.Read(file, 0, 0x2B0) != 0x2B0)
+                    if (_file.Read(file, 0, 0x2B1) != 0x2B0)
                     {
                         if (MessageBox.Show("THAT DON'T LOOK LIKE A DEAD SPACE THING." + Environment.NewLine + "DO IT ANYWAY?", "HEY THEN", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
                         {
